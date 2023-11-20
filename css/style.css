@@ -1,5 +1,5 @@
 .main-page {
-  min-width: 830px;
+  min-width: 829px;
   text-align: center;
 }
 
@@ -98,7 +98,7 @@
 /* block 4 */
 
 .block-center {
-  margin-left: min(49% - 189px, 1340px);
+  margin-left: min(48.4% - 189px, 1340px);
 }
 
 .center4 {
