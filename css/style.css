@@ -10,7 +10,7 @@
 .block4,
 .block5 {
   min-height: 140px;
-  min-width: 100px;
+  min-width: 787px;
   margin: 20px;
   border: 1px solid black;
   background-color: grey;
@@ -36,6 +36,11 @@
   border: 1px solid black;
 }
 
+.block4,
+.block5 {
+  height: 260px;
+}
+
 /* block 1 */
 
 .one1 {
@@ -48,14 +53,11 @@
 
 /* block 2 */
 
-.one2 {
-  float: left;
-}
-
 .box-right-2 {
   float: right;
 }
 
+.one2,
 .two2,
 .three2,
 .four2 {
@@ -76,25 +78,16 @@
   float: right;
 }
 
+.three3,
+.four3,
+.one3,
+.two3,
 .box-left-3 {
   float: left;
 }
 
-.one3,
-.two3 {
-  float: left;
-}
-
 .three3,
-.four3 {
-  float: left;
-}
-
 .two3 {
-  margin: 20px 0px 20px;
-}
-
-.three3 {
   margin: 20px 0px 20px;
 }
 
@@ -103,11 +96,6 @@
 }
 
 /* block 4 */
-
-.block4,
-.block5 {
-  height: 260px;
-}
 
 .block-center {
   margin-left: min(49% - 189px, 1340px);
