@@ -97,44 +97,42 @@
 
 /* block 4 */
 
-.block-center {
+.box-center-4 {
   margin-left: min(48.4% - 189px, 1340px);
 }
 
-.center4 {
+.box-center-4 {
+  float: left;
+}
+
+.box-center-sm {
   float: left;
 }
 
 .one4 {
   float: left;
-  margin: 20px;
-}
-
-.two4 {
-  margin: 20px 100px 2px 0px;
+  margin: 20px 0px 0px 20px;
 }
 
 .three4 {
-  margin: 18px 200px 2px 0px;
+  margin: -2px 0px 0px 20px;
 }
 
 /* block 5 */
 
-.one5 {
+.box-right-5 {
   float: right;
-  margin: 20px 210px 0px;
+}
+
+.box-right-sm {
+  float: left;
+}
+
+.one5 {
+  margin: 20px 0px;
+  float: left;
 }
 
 .three5 {
-  margin: 140px 0px 2px 20px;
-}
-
-.two5 {
-  float: inherit;
-  margin: 20px 20px 2px 20px;
-}
-
-.box-right-5 {
-  float: right;
-  margin: -281px 20px 2px 20px;
+  margin: -2px 0px 0px 20px;
 }
